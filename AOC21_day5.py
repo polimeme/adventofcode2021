@@ -4,13 +4,11 @@ i,f=[],[]
 for elem in r:
     elem=elem.replace('-','').replace('>',',').replace('\n','').replace(' ','')
     elem=elem.split(',')
-
     i.append([elem[0],elem[1]])
     f.append([elem[2],elem[3]])
 
 def mode(h):
     h=sorted(h)
-
     a=h[0]
     n=1
     b=[]
@@ -31,7 +29,6 @@ def mode(h):
 
 def sci(i,f):
     h,h2=[],[]
-
     for n in range(len(i)):
         x1,y1,x2,y2=int(i[n][0]),int(i[n][1]),int(f[n][0]),int(f[n][1])
         if x1==x2:
