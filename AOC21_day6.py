@@ -37,7 +37,7 @@ def shi(h,i):
 
 
     return a
-
-print(shi(h,128))
+print("PT1:",shi(h,40))
+print("PT2:",shi(h,128))
 
 
